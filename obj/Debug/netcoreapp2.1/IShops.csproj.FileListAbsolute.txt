@@ -1,0 +1,16 @@
+C:\Users\IDNS\source\repos\IShops\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\IDNS\source\repos\IShops\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\IDNS\source\repos\IShops\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\IDNS\source\repos\IShops\bin\Debug\netcoreapp2.1\IShops.deps.json
+C:\Users\IDNS\source\repos\IShops\bin\Debug\netcoreapp2.1\IShops.runtimeconfig.json
+C:\Users\IDNS\source\repos\IShops\bin\Debug\netcoreapp2.1\IShops.runtimeconfig.dev.json
+C:\Users\IDNS\source\repos\IShops\bin\Debug\netcoreapp2.1\IShops.dll
+C:\Users\IDNS\source\repos\IShops\bin\Debug\netcoreapp2.1\IShops.pdb
+C:\Users\IDNS\source\repos\IShops\obj\Debug\netcoreapp2.1\IShops.csprojAssemblyReference.cache
+C:\Users\IDNS\source\repos\IShops\obj\Debug\netcoreapp2.1\IShops.RazorAssemblyInfo.cache
+C:\Users\IDNS\source\repos\IShops\obj\Debug\netcoreapp2.1\IShops.RazorAssemblyInfo.cs
+C:\Users\IDNS\source\repos\IShops\obj\Debug\netcoreapp2.1\IShops.AssemblyInfoInputs.cache
+C:\Users\IDNS\source\repos\IShops\obj\Debug\netcoreapp2.1\IShops.AssemblyInfo.cs
+C:\Users\IDNS\source\repos\IShops\obj\Debug\netcoreapp2.1\IShops.RazorTargetAssemblyInfo.cache
+C:\Users\IDNS\source\repos\IShops\obj\Debug\netcoreapp2.1\IShops.dll
+C:\Users\IDNS\source\repos\IShops\obj\Debug\netcoreapp2.1\IShops.pdb
