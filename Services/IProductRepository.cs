@@ -10,7 +10,7 @@ namespace IShops.Services
     {
         ICollection<ProductsModel> GetProducts();
         ProductsModel GetProduct(int ProductId);
-        ICollection<ProductsModel> GetProductsFromAUser(string UserId);
+    //    ICollection<ProductsModel> GetProductsFromAUser(string UserId);
         bool ProductExists(int ProductId);
         bool IsDuplicateProductName(int ProductId, string ProductName);
 

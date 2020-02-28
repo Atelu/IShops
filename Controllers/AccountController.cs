@@ -181,7 +181,7 @@ namespace IShops.Controllers
             {
                 return StatusCode(200, new
                 {
-                    status = 104,
+                    status = "FAILED",
                     message = "email or password incorrect"
                 });
             }
@@ -208,7 +208,7 @@ namespace IShops.Controllers
             }
             if (result.Succeeded)
             {
-                await _userManager.AddToRoleAsync(user, "System Administrator");
+                await _userManager.AddToRoleAsync(user, "User");
 
                 var Employee = new UserInfo
                 {
