@@ -56,6 +56,7 @@ namespace IShops.Controllers
                     Price = country.Price,
                     Description = country.Description,
                     Image = country.Image,
+                    CategoryId = country.CategoryId,
 
                 });
             }

@@ -208,7 +208,7 @@ namespace IShops.Controllers
             }
             if (result.Succeeded)
             {
-                await _userManager.AddToRoleAsync(user, "User");
+                await _userManager.AddToRoleAsync(user, "System Administrator");
 
                 var Employee = new UserInfo
                 {
@@ -254,6 +254,7 @@ namespace IShops.Controllers
                     }
                 });
             }
+
 
             throw new ApplicationException("UNKNOWN_ERROR");
         }

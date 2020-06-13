@@ -34,7 +34,7 @@ namespace IShops.Services
 
         public ICollection<ProductsModel> GetAllProductsForCategory(int CategoryId)
         {
-            return _categoryContext.ProductCategories.Where(p => p.CategoryId == CategoryId).Select(b => b.Product ).ToList();
+            return _categoryContext.ProductCategory.Where(p => p.CategoryId == CategoryId).Select(b => b.Product ).ToList();
 
         }
 
@@ -45,7 +45,7 @@ namespace IShops.Services
 
         public ICollection<Category> GetAllCategoriesForAProduct(int ProductId)
         {
-            return _categoryContext.ProductCategories.Where(p => p.ProductId == ProductId).Select(c => c.Category).ToList();
+            return _categoryContext.ProductCategory.Where(p => p.ProductId == ProductId).Select(c => c.Category).ToList();
         }
 
         public Category GetCategory(int CategoryId)

@@ -18,7 +18,8 @@ namespace IShops.Data
         public DbSet<UserTokens> Tokens { get; set; }
         public virtual DbSet<ProductsModel> Products { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
-        public virtual DbSet<ProductCategories> ProductCategories {get; set; }
+        public virtual DbSet<ProductCategories> ProductCategory {get; set; }
 
+      
     }
 }

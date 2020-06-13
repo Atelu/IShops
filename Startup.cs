@@ -55,6 +55,7 @@ namespace IShops
 
              services.AddScoped<IUserService, UserService>();
              services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
